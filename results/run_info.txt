@@ -1,0 +1,13 @@
+healthy_dir=images/fresh
+defect_dir=[PosixPath('images/rot_defect'), PosixPath('images/bruise_defect'), PosixPath('images/scab_defect')]
+model=mobilenet_v2
+pretrained=True
+epochs=10
+batch_size=32
+lr=0.0003
+weight_decay=0.0001
+val_ratio=0.2
+img_size=224
+seed=42
+train_counts: healthy=2000 defect=1998
+val_counts: healthy=500 defect=499
