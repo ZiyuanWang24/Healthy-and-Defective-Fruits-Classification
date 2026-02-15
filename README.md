@@ -8,7 +8,7 @@ The core idea is that segmentation-derived cues (shape/defect region) can comple
 
 ---
 
-## Why this is interesting (recruiter-friendly)
+## Why this is interesting
 - **Multi-modal / multi-input learning**: two encoders + learnable fusion (concat / sum / gated).
 - **Practical data engineering**: pairs RGB↔mask files by ID-stem, supports mixed defect categories.
 - **Imbalance handling**: `WeightedRandomSampler` for balanced training.
