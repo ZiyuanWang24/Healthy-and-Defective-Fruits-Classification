@@ -41,22 +41,6 @@ We propose a lightweight multi-input fruit-quality classifier that combines RGB 
 - healthy fruit pixels = 255 (white)  
 - defects + background = 0 (black)
 
-> **Figure 1 (placeholder): SAM + K-means silhouette/defect pipeline**
->
-> `assets/fig1_sam_kmeans_pipeline.png`  
-> Generate with:
-> ```bash
-> python scripts/plot_flow_diagram.py --out assets/fig1_sam_kmeans_pipeline.png
-> ```
-
-> **Figure 2 (placeholder): Example outputs (RGB + generated step3 binary)**
->
-> `assets/fig2_sam_kmeans_examples.png`  
-> Generate with:
-> ```bash
-> python scripts/plot_sam_kmeans_examples.py --rgb_dir images/fresh --mask_dir outputs_step3_only_fresh --out assets/fig2_sam_kmeans_examples.png
-> ```
-
 ### 1.2 Multi-input classifier (RGB + silhouette)
 **Inputs:** (RGB, silhouette) → **two encoders** → **fusion** → **classifier**
 
