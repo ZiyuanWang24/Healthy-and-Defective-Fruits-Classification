@@ -2,3 +2,6 @@ torch
 torchvision
 pillow
 matplotlib
+
+# optional (only needed for SAM+K-means silhouette generation)
+opencv-python
