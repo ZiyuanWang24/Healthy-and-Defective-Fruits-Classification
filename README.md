@@ -114,15 +114,21 @@ A best checkpoint is saved to:
 
 > **Figure 5 (placeholder): Loss curve**
 >
-> `assets/fig5_loss_curve.png`
+> <p align="center">
+  <img src="images/fig5_loss_curve.png" width="100%" />
+</p>ssets/fig5_loss_curve.png`
 
 > **Figure 6 (placeholder): Accuracy curve**
 >
-> `assets/fig6_accuracy_curve.png`
+> <p align="center">
+  <img src="images/fig6_accuracy_curve.png" width="100%" />
+</p>
 
 > **Figure 7 (placeholder): Best-epoch confusion matrix**
 >
-> `assets/fig7_confusion_matrix_best.png`
+> <p align="center">
+  <img src="images/fig7_confusion_matrix_best.png" width="100%" />
+</p>
 
 Generate these after training:
 
