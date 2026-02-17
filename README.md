@@ -53,7 +53,9 @@ We propose a lightweight multi-input fruit-quality classifier that combines RGB 
 
 > **Figure 3 (placeholder): Model overview**
 >
-> `assets/fig3_model_overview.png` (optional; you can add later)
+> <p align="center">
+  <img src="images/arch.png" width="45%" />
+</p>
 
 ---
 
