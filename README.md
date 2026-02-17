@@ -82,14 +82,6 @@ Files are paired by **ID-stem**. Example:
 
 Silhouette files must contain the suffix **`_step3_binary`**.
 
-> **Figure 4 (placeholder): Paired training samples (RGB + silhouette)**
->
-> `assets/fig4_paired_training_examples.png`  
-> Generate with:
-> ```bash
-> python scripts/plot_dataset_examples.py --images_root images --out assets/fig4_paired_training_examples.png
-> ```
-
 ---
 
 ## 3) Training
