@@ -37,9 +37,12 @@ We propose a lightweight multi-input fruit-quality classifier that combines RGB 
   - min defect ratio
   - min anomaly separation
 
-**Output:** final binary `*_step3_binary.png`  
 - healthy fruit pixels = 255 (white)  
 - defects + background = 0 (black)
+<p align="center">
+  <img src="images/rot_defect/P_REAL_0019.png" width="45%" />
+  <img src="images/rot_defect_silhouette/P_REAL_0019_step3_binary.png" width="45%" />
+</p>
 
 ### 1.2 Multi-input classifier (RGB + silhouette)
 **Inputs:** (RGB, silhouette) → **two encoders** → **fusion** → **classifier**
