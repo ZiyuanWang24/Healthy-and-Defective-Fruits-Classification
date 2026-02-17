@@ -115,33 +115,20 @@ A best checkpoint is saved to:
 > **Figure 5 (placeholder): Loss curve**
 >
 > <p align="center">
-  <img src="images/fig5_loss_curve.png" width="50%" />
+  <img src="images/fig5_loss_curve.png" width="10%" />
 </p>ssets/fig5_loss_curve.png`
 
 > **Figure 6 (placeholder): Accuracy curve**
 >
 > <p align="center">
-  <img src="images/fig6_accuracy_curve.png" width="50%" />
+  <img src="images/fig6_accuracy_curve.png" width="10%" />
 </p>
 
 > **Figure 7 (placeholder): Best-epoch confusion matrix**
 >
 > <p align="center">
-  <img src="images/fig7_confusion_matrix_best.png" width="50%" />
+  <img src="images/fig7_confusion_matrix_best.png" width="10%" />
 </p>
-
-Generate these after training:
-
-```bash
-python scripts/plot_training_from_log.py --log results/train.log --out assets
-```
-
-Optional: regenerate confusion matrix from checkpoint (runs eval again):
-```bash
-python scripts/eval_and_plot_cm.py --ckpt results/best_model.pt --images_root images --out assets
-```
-
----
 
 ## 5) Reproducibility & engineering notes
 - Deterministic seeds are set for CPU/GPU for repeatable runs.
